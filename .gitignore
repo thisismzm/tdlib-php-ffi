@@ -1,0 +1,9 @@
+build
+composer.lock
+vendor
+phpcs.xml
+phpunit.xml
+infection.json
+.phpunit.result.cache
+.php_cs.cache
+coverage.clover
