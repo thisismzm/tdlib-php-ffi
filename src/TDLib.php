@@ -18,9 +18,9 @@ HEADER;
     private FFI $ffi;
 
     /**
-     * @param string|null $tdlibFilePath An optional file path/name to `libtdjson.so` library
+     * @param string|null $tdlibFilePath A file path/name to `libtdjson.so` library
      */
-    public function __construct(string $tdlibFilePath = null)
+    public function __construct(string $tdlibFilePath)
     {
         try {
             $this->ffi = FFI::cdef(static::TDLIB_HEADER_FILE, $tdlibFilePath);

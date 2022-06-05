@@ -6,9 +6,9 @@ An implementation of Telegram's TDLib in PHP by FFI extension
 ### Create an instance
 ```php
 /**
-* @param string|null $tdlibFilePath An optional file path/name to `libtdjson.so` library
+* @param string|null $tdlibFilePath A file path/name to `libtdjson.so` library
 */
-public function __construct(string $tdlibFilePath = null)
+public function __construct(string $tdlibFilePath)
 ```
 
 ### Create client id
